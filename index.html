@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Size Chart Widget</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .size-chart-widget {
+      background: #fff;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    .size-chart-widget h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #222;
+      text-align: center;
+    }
+
+    .size-chart-widget table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .size-chart-widget thead {
+      background-color: #0073aa;
+      color: #fff;
+    }
+
+    .size-chart-widget th,
+    .size-chart-widget td {
+      padding: 14px;
+      border: 1px solid #ddd;
+    }
+
+    .size-chart-widget tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    @media (max-width: 600px) {
+      .size-chart-widget table {
+        font-size: 14px;
+      }
+
+      .size-chart-widget th,
+      .size-chart-widget td {
+        padding: 10px;
+      }
+
+      .size-chart-widget h3 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="size-chart-widget">
+    <h3>📏 Size Chart (Men's Shirt)</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Size</th>
+          <th>Chest (in)</th>
+          <th>Waist (in)</th>
+          <th>Length (in)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>S</td>
+          <td>34–36</td>
+          <td>28–30</td>
+          <td>26</td>
+        </tr>
+        <tr>
+          <td>M</td>
+          <td>38–40</td>
+          <td>32–34</td>
+          <td>27</td>
+        </tr>
+        <tr>
+          <td>L</td>
+          <td>42–44</td>
+          <td>36–38</td>
+          <td>28</td>
+        </tr>
+        <tr>
+          <td>XL</td>
+          <td>46–48</td>
+          <td>40–42</td>
+          <td>29</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
