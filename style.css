@@ -321,9 +321,8 @@ span.social-share {
 .premium-product {
   display: flex;
   background: #fff;
-  border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-  max-width: 1100px;
+  max-width: 1300px;
   width: 100%;
   margin: 0 auto 40px auto;
   overflow: hidden;
@@ -332,18 +331,9 @@ span.social-share {
   flex: 1 1 50%;
   background: #f7f7f7;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 320px;
-  min-height: 480px;
-  padding: 30px 0;
 }
 .premium-product .product-image img {
   max-width: 100%;
-  max-height: 480px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-  background: #e6f7d7;
 }
 .premium-product .product-details {
   flex: 1 1 50%;
